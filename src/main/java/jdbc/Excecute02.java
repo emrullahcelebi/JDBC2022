@@ -41,7 +41,6 @@ public class Excecute02 {
             System.out.println(result3.getInt("company_id") + "-->" + result3.getString("company") + "-->" + result3.getInt("number_of_employees"));
         }
 
-
         //Baglanti  ve Statement'i kapat
         con.close();
        st.close();//scan.close gibi

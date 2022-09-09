@@ -28,6 +28,9 @@ public class ExecuteUpdate01 {
             System.out.println(result.getInt(1)+"--"+result.getString(2)+"--"+result.getInt(3));
         }
 
+
+
+
         con.close();
         st.close();
     }
